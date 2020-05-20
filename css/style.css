@@ -301,7 +301,7 @@ h6 {
   width: 100%;
 }
 
-.nav-menu li.buy-tickets a {
+.nav-menu li.contact-us a {
   color: #fff;
   background: #B22222;
   padding: 7px 22px;
@@ -315,12 +315,12 @@ h6 {
   font-size: 13px;
 }
 
-.nav-menu li.buy-tickets a:hover {
+.nav-menu li.contact-us a:hover {
   background: none;
 }
 
-.nav-menu li.buy-tickets:hover a:before,
-.nav-menu li.buy-tickets.menu-active a:before {
+.nav-menu li.contact-us:hover a:before,
+.nav-menu li.contact-us.menu-active a:before {
   visibility: hidden;
 }
 
@@ -699,20 +699,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Speakers Section
+# Case Studies Section
 --------------------------------------------------------------*/
 
-#speakers {
+#case-studies {
   padding: 60px 0 30px 0;
 }
 
-#speakers .speaker {
+#case-studies .case-study {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#speakers .speaker .details {
+#case-studies .case-study .details {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
@@ -723,52 +723,52 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#speakers .speaker .details h3 {
+#case-studies .case-study .details h3 {
   color: #fff;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#speakers .speaker .details p {
+#case-studies .case-study .details p {
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
 }
 
-#speakers .speaker .details .social {
+#case-studies .case-study .details .social {
   height: 30px;
 }
 
-#speakers .speaker .details a {
+#case-studies .case-study .details a {
   color: #fff;
 }
 
-#speakers .speaker .details a:hover {
+#case-studies .case-study .details a:hover {
   color: #B22222;
 }
 
-#speakers .speaker:hover .details {
+#case-studies .case-study:hover .details {
   bottom: 0;
 }
 
-#speakers-details {
+#case-studies-details {
   padding: 60px 0;
 }
 
-#speakers-details .details h2 {
+#case-studies-details .details h2 {
   color: #112363;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-#speakers-details .details .social {
+#case-studies-details .details .social {
   margin-bottom: 15px;
 }
 
-#speakers-details .details .social a {
+#case-studies-details .details .social a {
   background: #e9edfb;
   color: #112363;
   line-height: 1;
@@ -780,16 +780,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 9px;
 }
 
-#speakers-details .details .social a:hover {
+#case-studies-details .details .social a:hover {
   background: #B22222;
   color: #fff;
 }
 
-#speakers-details .details .social a i {
+#case-studies-details .details .social a i {
   font-size: 18px;
 }
 
-#speakers-details .details p {
+#case-studies-details .details p {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
@@ -857,7 +857,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
 }
 
-#schedule .schedule-item .speaker {
+#schedule .schedule-item .case-study {
   width: 60px;
   height: 60px;
   overflow: hidden;
@@ -866,7 +866,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 10px 10px 0;
 }
 
-#schedule .schedule-item .speaker img {
+#schedule .schedule-item .case-study img {
   height: 100%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -1215,46 +1215,47 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Buy Tickets Section
 --------------------------------------------------------------*/
 
-#buy-tickets {
+/*
+#contact-us {
   padding: 60px 0;
 }
 
-#buy-tickets .card {
+#contact-us .card {
   border: none;
   border-radius: 5px;
   transition: all  0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
-#buy-tickets .card:hover {
+#contact-us .card:hover {
   box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
 }
 
-#buy-tickets .card hr {
+#contact-us .card hr {
   margin: 25px 0;
 }
 
-#buy-tickets .card .card-title {
+#contact-us .card .card-title {
   margin: 10px 0;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
-#buy-tickets .card .card-price {
+#contact-us .card .card-price {
   font-size: 48px;
   margin: 0;
 }
 
-#buy-tickets .card ul li {
+#contact-us .card ul li {
   margin-bottom: 20px;
 }
 
-#buy-tickets .card .text-muted {
+#contact-us .card .text-muted {
   opacity: 0.7;
 }
 
-#buy-tickets .card .btn {
+#contact-us .card .btn {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
@@ -1264,16 +1265,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#buy-tickets .card .btn:hover {
+#contact-us .card .btn:hover {
   background-color: #e0072f;
 }
 
-#buy-tickets #buy-ticket-modal input,
-#buy-tickets #buy-ticket-modal select {
+#contact-us #contact-us-modal input,
+#contact-us #contact-us-modal select {
   border-radius: 0;
 }
 
-#buy-tickets #buy-ticket-modal .btn {
+#contact-us #contact-us-modal .btn {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
@@ -1283,9 +1284,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#buy-tickets #buy-ticket-modal .btn:hover {
+#contact-us #contact-us-modal .btn:hover {
   background-color: #e0072f;
 }
+*/
 
 /*--------------------------------------------------------------
 # Contact Section
