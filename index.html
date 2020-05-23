@@ -54,7 +54,7 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#solutions">Solutions</a></li>
 		  <li><a href="#subscribe">Newsletter</a></li>
-		  <li><a href="#case-studies">Case Studies</a></li>
+		  <!-- <li><a href="#case-studies">Case Studies</a></li> -->
           <li><a href="#about">About</a></li>
           <li class="contact-us"><a href="#contact">Contact Us</a></li>
         </ul>
@@ -68,10 +68,12 @@
   <section id="intro">
     <div class="intro-container wow fadeIn">
       <h1 class="mb-4 pb-0">Driving industrial <span>automation</span> through <span>innovative</span> technological solutions</h1>
+	  <!--
       <p class="mb-4 pb-0">Let us show you how we can help</p>
       <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
-      <a href="#contact" class="about-btn scrollto">Inquire</a>
+	  -->
+      <a href="#solutions" class="about-btn scrollto">Need a hand?</a>
     </div>
   </section>
 
@@ -128,7 +130,8 @@
           <p>Be in the know</p>
         </div>
 
-        <form method="POST" action="#">
+        <form method="POST" action="http://localhost:3000/api/newsletter">
+		  <input type="hidden" name="_csrf" value="">
           <div class="form-row justify-content-center">
             <div class="col-auto">
               <input type="text" class="form-control" placeholder="Enter your Email">
@@ -145,6 +148,7 @@
     <!--==========================
       Case Studies Section
     ============================-->
+	<!--
     <section id="case-studies" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
@@ -201,7 +205,7 @@
       </div>
 
     </section>
-	
+	-->
     <!--==========================
       About Section
     ============================-->
@@ -209,18 +213,27 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h2>About The Event</h2>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
+            <h2>About NGen Automation</h2>
+            <p>NGen Automation is a New Zealand owned and operated company, based in Auckland's North Shore. 
+			We specialise in anything automation, with innovative ideas and professionalism at the forefront.
+			We can help you all the way from hardware to firmware, through to software, and onto the cloud and beyond.
+			Our team of experts don't shy away from challenges, so if you have a challenge for us, <a class="scrollto" href="#contact">GET IN CONTACT!</a></p>
           </div>
           <div class="col-lg-3">
-            <h3>Where</h3>
-            <p>Downtown Conference Center, New York</p>
+            <h3>Hardware Solutions</h3>
+            <ul>
+				<li>Bespoke Controllers</li>
+				<li>PCB Design</li>
+				<li>IOT Devices/Telemetry</li>
+			</ul>
           </div>
           <div class="col-lg-3">
-            <h3>When</h3>
-            <p>Monday to Wednesday<br>10-12 December</p>
+            <h3>Software Solutions</h3>
+            <ul>
+				<li>Embedded Software</li>
+				<li>Cloud Solutions</li>
+				<li>Scripting and Automation</li>
+			</ul>
           </div>
         </div>
       </div>
