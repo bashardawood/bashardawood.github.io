@@ -143,5 +143,13 @@ jQuery(document).ready(function( $ ) {
   })
 
 // custom code
-
+  $('.contactForm').submit(function(){
+    $('#sendmessage').addClass('show');
+  });
+  
+  $('.subscribeForm').submit(function(event){
+	//event.preventDefault();
+    console.log("suscribed!");
+  });
+  
 });
